@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj-Says-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <H1>Suraj-Says-Game</H1>
+    <h2>Press any key to start</h2>
+    <h2 id="count"></h2>
+    <div id="instructions-overlay">
+        <div class="instructions-content">
+            <h1>How to Play Suraj-Says-Game</h1>
+            <p>
+                Watch: Suraj will light up a sequence of colored buttons. <br>
+                Repeat: Click the buttons in the exact same order. <br>
+                Remember: The sequence gets one step longer each level. <br>
+                Win: Keep playing as long as you can remember the pattern! If you press the wrong button, the game is over.
+            </p>
+            <button id="start-btn">Start Game</button>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <div class="line-1">
+            <div class="btn red"></div>
+            <div class="btn yellow"></div>
+        </div>
+        <div class="line-2">
+            <div class="btn purple"></div>
+            <div class="btn green"></div>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
