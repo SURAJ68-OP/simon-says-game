@@ -4,6 +4,7 @@
 
 The application uses JavaScript logic to:
 
+
 Generate random color sequences
 
 Store and compare user inputs with the game pattern
@@ -11,6 +12,7 @@ Store and compare user inputs with the game pattern
 Increase difficulty level dynamically
 
 Detect wrong moves and reset the game
+
 
 The UI is designed using CSS for smooth animations and visual feedback, while HTML structures the game layout.
 This project helped me strengthen my understanding of DOM manipulation, event handling, arrays, game state management, and basic frontend logic.
