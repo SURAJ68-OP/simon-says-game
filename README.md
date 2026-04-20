@@ -1,4 +1,5 @@
 # simon-says-game
+
  
  A classic Simon Says memory game built using HTML, CSS, and JavaScript. The game tests the player’s memory by generating an increasing sequence of colors that the user must repeat in the correct order.
 
